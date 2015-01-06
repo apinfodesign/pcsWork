@@ -1,9 +1,11 @@
 //
 
 var students = [
- {name: "jack", gender:"m", grade:7},
- {name: "bob", gender:"m", grade:8},
- {name: "bill", gender:"f", grade:12},
+ {name: "Jack", gender:"m", grade:7},
+ {name: "Bob", gender:"m", grade:8},
+ {name: "Sally", gender:"f", grade:12},
+ {name: "Jane", gender:"f" },
+
  {name: "jack", gender:"m", grade:7}
  ];
 
@@ -14,6 +16,6 @@ var students = [
 // };
 
 students.forEach(function(students){
-  console.log(students.name, " ", students.grade, " and the gender is: ", students.gender);
+  console.log("Name: ", students.name, "   Grade Level: ", students.grade, "   Gender: ", students.gender);
 });
 
